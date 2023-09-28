@@ -1,0 +1,56 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: lightgray;
+    cursor: pointer;
+  }
+  .card::before{
+    background-color: lightgray;
+  }
+  .selected {
+    background-color: yellow;
+  }
+  
+  .matched {
+    background-color:red;
+  }
+  
+  .shape {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+  }
+  
+  .square {
+    border-radius: 0;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid;
+  }
+  .green {
+    background-color: green;
+  }
+  .red {
+    background-color: red;
+  }
+  .blue {
+    background-color: blue;
+  }

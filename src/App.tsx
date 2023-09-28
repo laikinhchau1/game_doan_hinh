@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from './components/Board';
+import Game from './components/Game';
 import './App.css';
 
 const App: React.FC = () => {
@@ -9,7 +10,7 @@ const App: React.FC = () => {
         <h1>Shape Matcher</h1>
       </header>
       <main>
-        <Board />
+        <Game />
       </main>
     </div>
   );
